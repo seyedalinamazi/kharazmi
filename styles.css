@@ -1,0 +1,124 @@
+body {
+margin: 0;
+
+}
+.header {
+   margin-top: 0;
+    width: 100%;
+    background-color: #0019FF;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 150px;
+    padding: 0;
+}
+.header img {
+   margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    float: left;
+}
+.info {
+    float: left;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 0;
+
+}
+.info p {
+    color: black;
+}
+.info h1{
+    font-size: 30px;
+}
+
+.footer {
+    margin-top: 10px;
+    width: 100%;
+ position: absolute;
+ text-align: center;
+ color: white;
+ background-color: #0061FF;
+ bottom: 0;
+
+ float: left;
+}
+.look {
+    border: 3px solid #820000;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 90%;
+    box-shadow: 0 1px 1em rgba(3, 3, 3, 0.2);
+height: 500px;
+margin-bottom: 10px;
+float: left;
+}
+.content-title {
+    border-bottom: 3px solid black ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content h3 {
+    margin-right: 10px;
+    font-size: 30px;
+}
+.content p {
+    margin-left: 10px;
+    float: left;
+}
+.content-text img {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 200px;
+    height: 300px;
+    float: left;
+    border: 3px solid black ;
+}
+.look {
+    background-color: #FF0000;
+}
+.content {
+    background-color: #D30000;
+}
+.scroll-text{
+    background-color: #F001FF;
+    color: white;
+}
+.menu {
+    background-color:#29FF00;
+    height: 40px;
+}
+.menu ul {
+    margin: 0;
+}
+.menu li {
+    display: inline-block;
+    margin-top: 5px;
+    padding-right: 30px;
+    
+}
+.account a{
+
+    background-color: #03138B;
+    text-decoration: none;
+    margin-bottom: 5px;
+    color: white;
+    padding: 5px;
+    border-radius: 7px;
+  }
+  .account a:hover{
+
+    background-color: #03138B;
+
+  }
+  .menu li:hover {
+    position:relative;
+    top: 1px;
+}
+  .menu li:active {
+      position:relative;
+      top: 2px;
+  }
+.scroll-text{
+    float:inline-end;
+}
+    
